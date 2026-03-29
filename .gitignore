@@ -1,6 +1,21 @@
+# Virtual Environment
 .venv/
 __pycache__/
 *.pyc
+
+# Environment Variables
 .env
-.ipynb_checkpoints/
+.env.local
+
+# LangChain / LangGraph
+.langchain.db
+langchain_cache/
+.langgraph/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
 .python-version
